@@ -1,0 +1,4 @@
+Model,Accuracy (%),Average Confidence (%),Average Normalized Entropy,Correct,Incorrect,High Confidence Incorrect,Correct but Uncertain,High Confidence Correct,Needs Further Verification
+Original CNN,93.89,96.22,0.0299,11858,772,174,158,11179,521
+PGD Adversarial CNN,80.88,69.75,0.2645,10215,2415,23,2359,6011,1845
+Mixed Adversarial CNN,90.14,80.51,0.1695,11385,1245,22,1837,7346,2202

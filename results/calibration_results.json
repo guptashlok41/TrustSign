@@ -1,0 +1,10 @@
+{
+    "Model": "Original CNN",
+    "Calibration Method": "Temperature Scaling",
+    "Optimal Temperature": 0.9964140057563782,
+    "ECE Before": 0.0236,
+    "ECE After": 0.0238,
+    "Accuracy Before": 93.89,
+    "Accuracy After": 93.89,
+    "Calibration Improved": false
+}

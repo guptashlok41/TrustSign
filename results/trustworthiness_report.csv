@@ -1,0 +1,4 @@
+Model,Accuracy (%),Average Confidence (%),Average Entropy,Correct Predictions,Incorrect Predictions,High Confidence Incorrect,Correct but Uncertain,High Confidence Correct,Needs Further Verification
+Original CNN,93.89,96.22,0.0299,11858,772,174,157,11178,523
+PGD CNN,80.89,69.76,0.2645,10216,2414,23,2361,6012,1843
+Mixed CNN,90.13,80.51,0.1695,11384,1246,22,1837,7345,2202

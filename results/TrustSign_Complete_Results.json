@@ -1,0 +1,73 @@
+{
+    "Project": "TrustSign",
+    "Dataset": "GTSRB",
+    "Classes": 43,
+    "Test Images": 12630,
+    "Adversarial Experiments": {
+        "Epsilons": [
+            0.0,
+            0.01,
+            0.03,
+            0.05,
+            0.1
+        ],
+        "Original CNN FGSM Accuracy": [
+            93.88756927949326,
+            53.174980205859065,
+            29.77038796516231,
+            21.045130641330168,
+            13.040380047505938
+        ],
+        "Original CNN PGD Accuracy": [
+            93.88756927949326,
+            45.20190023752969,
+            14.631828978622329,
+            7.513855898653999,
+            2.2327790973871733
+        ],
+        "Original CNN FGSM ASR": [
+            43.36313037611739,
+            68.29144881092932,
+            77.58475290942823,
+            86.11064260414909
+        ],
+        "Original CNN PGD ASR": [
+            51.914319446786976,
+            84.44931691684938,
+            91.85360094451003,
+            97.58812615955473
+        ]
+    },
+    "Three Model Comparison": {
+        "Original CNN": {
+            "Clean Accuracy": 93.89,
+            "FGSM Accuracy": 29.77,
+            "PGD Accuracy": 14.66,
+            "FGSM ASR": 68.29,
+            "PGD ASR": 84.4
+        },
+        "PGD Adversarial CNN": {
+            "Clean Accuracy": 80.89,
+            "FGSM Accuracy": 46.73,
+            "PGD Accuracy": 32.34,
+            "FGSM ASR": 42.24,
+            "PGD ASR": 60.22
+        },
+        "Mixed Adversarial CNN": {
+            "Clean Accuracy": 90.13,
+            "FGSM Accuracy": 47.21,
+            "PGD Accuracy": 31.33,
+            "FGSM ASR": 47.62,
+            "PGD ASR": 65.39
+        },
+        "Calibration": {
+            "Original ECE": 0.0236,
+            "Calibrated ECE": 0.0238,
+            "Optimal Temperature": 0.9964140057563782
+        }
+    },
+    "Trustworthiness Evaluation": {
+        "Report": "trustworthiness_report.csv",
+        "Graph": "trustworthiness_comparison.png"
+    }
+}

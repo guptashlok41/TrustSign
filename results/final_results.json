@@ -1,0 +1,28 @@
+{
+    "Original CNN": {
+        "Clean Accuracy": 93.89,
+        "FGSM Accuracy": 29.77,
+        "PGD Accuracy": 14.66,
+        "FGSM ASR": 68.29,
+        "PGD ASR": 84.4
+    },
+    "PGD Adversarial CNN": {
+        "Clean Accuracy": 80.89,
+        "FGSM Accuracy": 46.73,
+        "PGD Accuracy": 32.34,
+        "FGSM ASR": 42.24,
+        "PGD ASR": 60.22
+    },
+    "Mixed Adversarial CNN": {
+        "Clean Accuracy": 90.13,
+        "FGSM Accuracy": 47.21,
+        "PGD Accuracy": 31.33,
+        "FGSM ASR": 47.62,
+        "PGD ASR": 65.39
+    },
+    "Calibration": {
+        "Original ECE": 0.0236,
+        "Calibrated ECE": 0.0238,
+        "Optimal Temperature": 0.9964140057563782
+    }
+}
